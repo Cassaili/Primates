@@ -11,7 +11,7 @@
 const articles = [
   {
     id: 1,
-    referenciaCompleta: "Rangel Negrín, A., Coyohua Fuentes, A., de la Torre Herrera, A., Cano Huertes, B., Reynoso Cruz, E., Ceccarelli, E., Gómez Espinosa, E. E., Chavira Ramírez, D. R., Moreno Espinoza, D. E., Canales-Espinosa, D., Maya Lastra, N., Cruz Miros, P., Cañadas Santiago, S., Garau, S., & Dias, P. A. D. (2021). Female reproductive energetics in mantled howler monkeys (Alouatta palliata): A follow-up study. American Journal of Physical Anthropology, 1–11.",
+    referenciaCompleta: "Rangel Negrín, A., Coyohua Fuentes, A., de la Torre Herrera, A., Cano Huertes, B., Reynoso Cruz, E., Ceccarelli, E., Gómez Espinosa, E. E., Chavira Ramírez, D. R., Moreno Espinoza, D. E., Canales-Espinosa, D., Maya Lastra, N., Cruz Miros, P., Cañadas Santiago, S., Garau, S., & Dias, P. A. D. (2021). Female reproductive energetics in mantled howler monkeys (Alouatta palliata): A follow-up study. American Journal of Physical Anthropology, 174(3), 396–406.",
     autores: "Rangel Negrín, A., Coyohua Fuentes, A., de la Torre Herrera, A., Cano Huertes, B., y colaboradores; Dias, P. A. D.",
     anio: 2021,
     titulo: "Female reproductive energetics in mantled howler monkeys (Alouatta palliata): A follow-up study",
@@ -49,7 +49,7 @@ const articles = [
     sitioEstudio: "Los Tuxtlas, Veracruz, México",
     centralidad: "Central fuerte",
     temaPrincipal: "Cuidado materno y sexo de la cría",
-    temasSecundarios: ["cuidado-materno", "sexo-cria"],
+    temasSecundarios: ["cuidado-materno"],
     objetivo: "Examinar la hipótesis de Trivers-Willard (TWH) en monos aulladores de manto: se esperaba que las hembras en mejor condición física sesgaran el cuidado materno hacia hijos varones, y las hembras en peor condición hacia hijas.",
     muestra: "20 díadas madre-cría; determinación genética del sexo de la cría (7 hijas y 13 hijos); 46 muestras de orina para medir C-péptido materno.",
     metodosPrincipales: "Muestreo focal continuo de interacciones madre-cría (204 horas, entre diciembre 2017 y marzo 2019); análisis genético para determinar el sexo de la cría; medición de C-péptido urinario como indicador de condición física materna.",
@@ -368,8 +368,7 @@ const temas = [
 const temaLabels = {
   "costos-energeticos": "Costos energéticos",
   "lactancia": "Lactancia e inversión materna",
-  "cuidado-materno": "Cuidado materno",
-  "sexo-cria": "Sexo de la cría",
+  "cuidado-materno": "Cuidado materno y sexo de la cría",
   "manejo-infantil": "Manejo infantil",
   "conflicto-madre-cria": "Conflicto madre-cría",
   "contexto-demografico": "Contexto demográfico"
